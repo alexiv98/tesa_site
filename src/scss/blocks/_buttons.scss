@@ -1,0 +1,137 @@
+.button {
+    border-radius: 23px;
+    border: 1px solid $main-color;
+    background: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: $main-color; 
+    padding: 12px 50px;
+    transition: all 0.5s;
+    text-transform: none;
+    &:hover {
+        cursor: pointer;
+        background: $main-color;
+        color: #fff;
+        box-shadow: 0 0 3px rgba(114,46,209, 0.7);
+
+    }
+
+    &_promo {
+        background: $main-color;
+        color: #fff;
+        margin-right: 16px;
+        transition: background 0.5s ease, color 0.5s ease, opacity 1s ease 0.5s, transform 1s ease 0.5s;
+        &.animate {
+            opacity: 0;
+            transform: scale3d(0.3, 0.3, 0.3);
+        }
+        &.animate_show {
+            opacity: 1;
+            transform: scale3d(1, 1, 1);
+
+        }
+        &:hover {
+            color: $main-color;
+            background: #fff;
+            box-shadow: 0 0 3px rgba(114,46,209, 0.7);
+        }
+        &_white {
+            border: 1px solid #fff;
+            color: $main-color;
+            background: #fff;
+            transition: border 0.5s ease, color 0.5s ease, opacity 1s ease 0.5s, transform 1s ease 0.5s;
+
+            &.animate {
+                opacity: 0;
+                transform: scale3d(0.3, 0.3, 0.3);
+            }
+            &.animate_show {
+                opacity: 1;
+                transform: scale3d(1, 1, 1);
+    
+            }
+            &:hover {
+                color: #fff;
+                border: 1px solid $main-color;
+                box-shadow: 0 0 3px rgba(114,46,209, 0.7);
+                
+            }
+        }
+    }
+    &_showcase {
+        display: block;
+        width: 195.19px;
+        background: $main-color;
+        color: #fff;
+        margin: 40px auto 0 auto;
+        transition: background 0.5s ease, color 0.5s ease, opacity 0.5s ease , transform 0.5s ease;
+
+        &.animate {
+            opacity: 0;
+            transform: scale3d(0.3, 0.3, 0.3);
+        }
+        &.animate_show {
+            opacity: 1;
+            transform: scale3d(1, 1, 1);
+
+        }
+        &:hover {
+            color: $main-color;
+            background: #fff;
+        }
+        
+
+      
+    }
+    &_contact-form {
+        background: $main-color;
+        color: #fff;
+        border-radius: 23px;
+        width: 200px;
+        position: relative;
+        &:hover {
+            color: $main-color;
+            background: #fff;
+            box-shadow: 0 0 3px rgba(114,46,209, 0.7);
+
+        }
+
+    }
+    &_products {
+        display: block;
+        padding: 12px 30px;
+        margin: 0 auto;
+        width: 147.69px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        &:hover {
+            background: $main-color;
+            color: #fff;
+        }
+    }
+    &_card {
+        align-self: center;
+        justify-self: start;
+        grid-row: 2/3;
+        background: $main-color;
+        color: #fff;
+        margin-right: 16px;
+        &.animate{
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+            transition-delay: 0.6s;
+
+          }
+          
+        &.animate_show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+
+    }
+    
+}

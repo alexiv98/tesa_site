@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('../parts/head.html')
+</head>
+<body>
+    @@include('../parts/burger.html')
+    @@include('../parts/header.html')
+    <section class="card">
+        <div class="container">
+            <div class="card__wrapper">
+                <div class="card__img animate">
+                    <img src="img/products/SG.png" alt="SG">
+                </div>
+                    <div class="title title_card animate">Програмований контролер <br> ES-ForthLogic SG</div>
+                    <div class="card__price animate">11 665 &#8372;</div>
+                    <a href="#" class="button button_card  animate" data-modal>Замовити</a>
+                    <div class="card__details animate">
+                        <div class="card__tabs">
+                            <div class="card__tab card__tab_active" data-tab="descr">Опис</div>
+                            <div class="card__tab" data-tab="scheme">Схеми</div>
+                            <div class="card__tab" data-tab="specs">Характеристики</div>
+                            <div class="card__tab" data-tab="doc">Документація</div>
+                        </div>
+                        <div class="card__details-area" id="descr">
+                            <b>Призначення:</b> контролери ES-ForthLogic™ SG є універсальними вільнопрограмованими логічними контролерами модульної архітектури, призначеними для побудови як замкнутих, так і інтегрованих в інші системи контурів керування довільним інженерним та промисловим обладнанням малого/середнього рівня складності в побуті (ES-ForthLogic™ SG) та промисловості (ES-ForthLogic™ SG prom). Завдяки вбудованому GSM/GPRS-комунікатору може здійснювати обмін даними через мережу GSM в режимах SMS, CSD та GPRS. Також існує можливість будувати довільні IVR-задачі, тобто взаємодіяти з контрольованою системою за допомогою власного голосового меню.
+                            <br><br>
+                            <b>ES-ForthLogic™ SG</b> - відсутня повна гальванічна ізоляція центрального процесора відносно кіл живлення, входів, виходів та послідовного інтерфейсу.
+                            <br><br>
+
+                            <b>ES-ForthLogic™ SG prom</b> - повна гальванічна ізоляція центрального процесора відносно кіл живлення, входів, виходів та послідовного інтерфейсу.
+                        </div>
+                        <div class="card__details-area" id="scheme">
+                            <h4>Схема підключення:</h4>
+                            <img src="img/products/sg-scheme.webp" alt="">
+                        </div>
+                        <div class="card__details-area" id="specs">
+                            <ul class="specs__list">
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>вбудований інтерпретатор мови ForthLogicTM для реалізації довільних алгоритмів роботи контролера</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>6 універсальних входів/виходів: входи для приєднання сигналів типу "сухий контакт"/"відкритий колектор"; виходи типу "відкритий колектор" (50 В; 0,2 А); входи можуть працювати в режимі швидкого лічильника (10 кГц); виходи можуть працювати в режимі формування ШІМ-сигналу</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>2 аналогових входи по струму (0/4...20 мА), розрядність представлення даних 10р</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>1 швидкий послідовний порт RS485 з підтримкою протоколу MODBUS RTU та можливістю роботи в режимах MASTER або SLAVE</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>вбудований GSM/GPRS-комунікатор з можливістю передачі та прийому даних в форматах SMS, CSD, GPRS та голосовий канал: при роботі з стільниковим телефоном користувача доступні голосове меню, голосові повідомлення (зберігаються на зовнішній карті пам’яті) та керування за допомогою DTMF</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>вбудований легкодоступний зчитувач SIM-карти</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>вбудований легкодоступний зчитувач карт пам’яті типу SD/SDHC/MMC</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>порт miniUSB для програмування та взаємодії з контролером</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>внутрішня пам’ять подійна 25000 подій(2Мб)</li>
+                            </ul>
+                        </div>
+                        <div class="card__details-area" id="doc">
+                            Docs
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @@include('../parts/footer.html') 
+    <img src="icons/up.svg" alt="" id="pageup" class="pageup">
+    @@include('../parts/modal.html')
+</body>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('../parts/head.html')
+</head>
+<body>
+    @@include('../parts/burger.html')
+    @@include('../parts/header.html')
+    <section class="card">
+        <div class="container">
+            <div class="card__wrapper">
+                <div class="card__img animate">
+                    <img src="img/products/rt-2l.png" alt="SG">
+                </div>
+                    <div class="title title_card animate">Вимірювач температури ES-RT-2L, для датчиків типу КTY10-6</div>
+                    <div class="card__price animate">1 080 &#8372;</div>
+                    <a data-modal href="#" class="button button_card animate">Замовити</a>
+                    <div class="card__details animate">
+                        <div class="card__tabs">
+                            <div class="card__tab card__tab_active" data-tab="descr">Опис</div>
+                            <div class="card__tab" data-tab="scheme">Схеми</div>
+                            <div class="card__tab" data-tab="specs">Характеристики</div>
+                            <div class="card__tab" data-tab="doc">Документація</div>
+                        </div>
+                        <div class="card__details-area" id="descr">
+                            <b>З внутрішнім вмонтованим датчиком. Без зовнішнього датчика в комплекті</b>
+                            <br><br>
+                            <b> Призначення:</b> для вимірювання температури за допомогою датчиків температури типу <b>КTY10-6</b> та передачі виміряних значень контролеру на уніфіковані аналогові входи.
+                            <br><br>
+                            * Спеціальна конструкція модуля допускає будь-яку полярність підключення напруги живлення та опору навантаження, а вбудований захист від імпульсних завад дозволяє застосовувати довгі провідники (до 300 м).
+                        </div>
+                        <div class="card__details-area" id="scheme">
+                            <h4>Схема підключення:</h4>
+                            <img src="img/products/rt-2l-scheme.webp" alt="">
+                        </div>
+                        <div class="card__details-area" id="specs">
+                            <table class="card__table">
+                                <thead>
+                                    <tr>
+                                        <th>Характеристика</th>
+                                        <th>Значення</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Напруга живлення</td>
+                                        <td>9 - 30 В</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Діапазон робочих температур</td>
+                                        <td>Від -40°С до +85°С</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Діапазон виміру</td>
+                                        <td>Від -50°С до +100°С</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Похибка вимірювання</td>
+                                        <td>±1,5°С</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Струм на виході</td>
+                                        <td>4 - 20 мА</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Тип датчика</td>
+                                        <td>KTY 10-6, внутрішній або зовнішній</td>
+                                    </tr>
+                                </tbody>
+                               
+                            </table>
+                        </div>
+                        <div class="card__details-area" id="doc">
+                            Docs
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @@include('../parts/footer.html') 
+    <img src="icons/up.svg" alt="" id="pageup" class="pageup">
+    @@include('../parts/modal.html')
+</body>

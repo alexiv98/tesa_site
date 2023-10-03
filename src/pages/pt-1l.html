@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('../parts/head.html')
+</head>
+<body>
+    @@include('../parts/burger.html')
+    @@include('../parts/header.html')
+    <section class="card">
+        <div class="container">
+            <div class="card__wrapper">
+                <div class="card__img animate">
+                    <img src="img/products/pt-1l.png" alt="SG">
+                </div>
+                    <div class="title title_card animate">Вимірювач температури ES-PT-1L, для датчиків типу Pt100</div>
+                    <div class="card__price animate"></div>
+                    <a data-modal href="#" class="button button_card animate">Замовити</a>
+                    <div class="card__details animate">
+                        <div class="card__tabs">
+                            <div class="card__tab card__tab_active" data-tab="descr">Опис</div>
+                            <div class="card__tab" data-tab="scheme">Схеми</div>
+                            <div class="card__tab" data-tab="specs">Характеристики</div>
+                            <div class="card__tab" data-tab="doc">Документація</div>
+                        </div>
+                        <div class="card__details-area" id="descr">
+                            <b>Без датчика в комплекті</b>
+                            <br><br>
+                            <b>Призначення:</b> для вимірювання температури за допомогою зовнішніх датчиків температури типу Pt100 та перетворення виміряних значень в уніфікований аналоговий вихідний сигнал струму типу 4-20 мА.
+                            <br><br>
+                            <b>Дія:</b> ES-PT-1L здійснює неперервне перетворення опору зовнішнього датчика температури типу Pt100 в уніфікований аналоговий вихідний сигнал постійного струму типу 4-20 мА. В результаті перетворення, на виході має спостерігатись струм який відповідає температурі середовища, в якому знаходиться датчик температури.
+                            <br><br>
+                            * Спеціальна конструкція вхідних кіл модуля забезпечує контроль обриву будь-якого з проводів зовнішнього датчика. При цьому вихідний струм приймає значення або 2,2 мА або 27 мА.
+                            <br><br>
+                            ** Спеціальна конструкція вихідних кіл модуля допускає будь-яку полярність підключення напруги живлення та опору навантаження а вбудований захист від імпульсних завад дозволяє застосовувати довгі провідники (до 300м).
+                        </div>
+                        <div class="card__details-area" id="scheme">
+                            <h4>Схема підключення:</h4>
+                            <img src="img/products/pt-1l-scheme.jpeg" alt="">
+                        </div>
+                        <div class="card__details-area" id="specs">
+                            <table class="card__table">
+                                <thead>
+                                    <tr>
+                                        <th>Характеристика</th>
+                                        <th>Значення</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Напруга живлення</td>
+                                        <td>9 - 30 В</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Діапазон регулювання температури</td>
+                                        <td>-100°С до +400°С</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Діапазон робочих температур</td>
+                                        <td>Від -40°С до +85°С</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Відносна вологість</td>
+                                        <td>До 85% при +30°С</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Датчик температури</td>
+                                        <td>Резистивний, вбудований</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Похибка вимірювання</td>
+                                        <td>± 1,0°С</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Струм на виході</td>
+                                        <td>4 - 20 мА</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Тип датчика</td>
+                                        <td>Pt100, зовнішній</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ступінь захисту</td>
+                                        <td>IP20</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Габаритні розміри</td>
+                                        <td>1 модуль типу S (17,5 мм)</td>
+                                    </tr>
+                                </tbody>
+                               
+                            </table>
+                        </div>
+                        <div class="card__details-area" id="doc">
+                            Docs
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @@include('../parts/footer.html') 
+    <img src="icons/up.svg" alt="" id="pageup" class="pageup">
+    @@include('../parts/modal.html')
+</body>

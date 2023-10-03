@@ -1,0 +1,99 @@
+.footer {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f6ff;
+   &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 38px;
+   }
+   &__company {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        &-logo {
+            width: 48px;
+            height: 48px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &-descr {
+            color: #160637;
+            margin-top: 14px;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 20px;
+        }
+   }
+   &__socials {
+        margin-top: 24px;
+        display: flex;
+        gap: 15px;
+   }
+   &__social {
+        width: 30px;
+        height: 30px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+   }
+   &__item {
+        display: flex;
+        flex-direction: column;
+   }
+   &__title {
+        font-size: 16px;
+        font-weight: 700;
+        color: #160637;
+   }
+   &__list {
+        margin-top: 20px;
+        padding: 0;
+        &-item {
+            list-style-type: none;
+            margin-bottom: 15px;
+            color: #160637;
+            font-size: 12px;
+            font-weight: 500;
+        }
+   }
+   &__contacts {
+        display: flex;
+        flex-direction: column;
+        &-list {
+            margin-top: 20px;
+        }
+        &-item {
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+
+   }
+   &__form {
+        margin-top: 22px;
+        position: relative;
+        &-input {
+            input {
+                width: 250px;
+                height: 40px;
+                padding: 14px 37px 14px 16px;
+                color: #8989A2;
+                font-size: 12px;
+                font-weight: 500;
+                filter: drop-shadow(0px 5px 9px rgba(0, 0, 0, 0.05));
+                border: none;
+            }
+        }
+        &-send {
+            position: absolute;
+            right: 13px;
+            top: 12px;
+            
+        }
+   }
+}

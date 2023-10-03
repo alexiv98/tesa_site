@@ -1,0 +1,123 @@
+.title {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    color: #160637;
+    &_fz48 {
+        font-size: 48px;
+        line-height: normal;
+        &.animate {
+            opacity: 0;
+            transform: translate3d(-100%, 0, 0);
+            transition: all 1s ease;
+            transition-delay: 0.2s;
+        }
+        &.animate_show {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+    &_fz50 {
+        font-size: 50px;
+        text-align: center;
+        &.animate {
+            opacity: 0;
+            transition: all 0.4s ease-in;
+        }
+        &.animate_show {
+            opacity: 1;
+
+        }
+
+    }
+    &_center {
+        text-align: center;
+        &.animate {
+            opacity: 0;
+            transition: all 0.7s;
+            transform: translateY(30px);
+        }
+        &.animate_show {
+            opacity: 1;
+            transform: translateY(0px);
+
+
+        }
+    }
+    &_mb50 {
+        margin-bottom: 50px;
+    }
+    &_contact {
+        color: $main-color;
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: 1.92px;
+        margin: 0;
+    }
+    &_products {
+        margin: 50px 0 20px 5px;
+        &.animate {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+          }
+          
+        &.animate_show{
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        
+    }
+    &_card {
+        grid-column: 2/4;
+        grid-row: 1/2;
+        &.animate{
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+            transition-delay: 0.2s;
+          }
+          
+        &.animate_show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }   
+}
+#showcase {
+    margin-top: -100px;
+    padding-top: 100px;
+}
+
+
+
+.subtitle {
+    color: #8989A2;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 24px 0;
+    &_create {
+        max-width: 672px;
+        margin: 24px auto;
+        transition: all 0.7s;
+        &.animate {
+            opacity: 0;
+        }
+        &.animate_show {
+            opacity: 1;
+        }
+    }
+    &_contact {
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.96px;
+        text-align: none;
+        margin: 0;
+
+    }
+}

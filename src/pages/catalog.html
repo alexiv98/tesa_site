@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('../parts/head.html')
+</head>
+<body>
+    <div class="burger-menu">
+        <div class="burger-menu__block">
+            <div class="burger-menu__close"></div>
+            <nav>
+                <ul class="burger-menu__items">
+                    <li class="burger-menu__item"><a href="index.html" class="burger-menu__link">Головна</a></li>
+                    <li class="burger-menu__item"><a href="catalog.html" class="burger-menu__link">Каталог</a></li>
+                    <li class="burger-menu__item"><a href="contacts.html" class="burger-menu__link">Контакти</a></li>
+
+                </ul>
+            </nav>
+            <div class="burger-menu__overlay"></div>
+        </div>
+    </div>
+    @@include('../parts/header.html')
+    <section class="banner">
+        <div class="container">
+            <h2 class="title title_fz50 animate">Каталог</h2>
+        </div>
+    </section>
+    <section class="catalog">
+        <div class="container">
+            <div class="tabs">
+                <div class="tabs__list">
+                    <div class="tabs__item tabs__item_short tabs__item_active" data-tab="all">Всі</div>
+                     <!-- <div class="tabs__item">Контроллеры ES-ForthLogic</div>
+                    <div class="tabs__item">Вимірювальні перетворювачі напруги та струму</div>
+                    <div class="tabs__item">Вимірювальні перетворювачі температури та вологості</div>
+                    <div class="tabs__item">Допоміжні елементи систем автоматики</div>
+                    <div class="tabs__item">Модулі розширення входів та виходів</div>
+                    <div class="tabs__item">Перетворювачі інтерфейсів</div> -->
+                </div> 
+            </div>
+            <div class="products">                      
+            </div>
+        </div>
+    
+</section>
+
+@@include('../parts/footer.html')
+<img src="icons/up.svg" alt="" id="pageup" class="pageup">
+@@include('../parts/modal.html')
+
+
+    
+    
+</body>
+</html>

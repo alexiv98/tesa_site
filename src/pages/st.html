@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('../parts/head.html')
+</head>
+<body>
+    @@include('../parts/burger.html')
+    @@include('../parts/header.html')
+    <section class="card">
+        <div class="container">
+            <div class="card__wrapper">
+                <div class="card__img animate">
+                    <img src="img/products/SG.png" alt="SG">
+                </div>
+                    <div class="title title_card animate">Програмований контролер ES-ForthLogic ST</div>
+                    <!-- <div class="card__price">11 330 &#8372;</div> -->
+                    <a href="#" class="button button_card animate">Замовити</a>
+                    <div class="card__details animate">
+                        <div class="card__tabs">
+                            <div class="card__tab card__tab_active" data-tab="descr">Опис</div>
+                            <div class="card__tab" data-tab="scheme">Схеми</div>
+                            <div class="card__tab" data-tab="specs">Характеристики</div>
+                            <div class="card__tab" data-tab="doc">Документація</div>
+                        </div>
+                        <div class="card__details-area" id="descr">
+                            <b>Призначення:</b> контролери серії ES-ForthLogic™ S є універсальними вільнопрограмованими логічними контролерами модульної архітектури, призначеними для побудови як замкнутих, так і інтегрованих в інші системи контурів керування довільним інженерним та промисловим обладнанням малого/середнього рівня складності в побуті та промисловості. На даний момент в серії є чотири моделі: SG, SB, ST, SE.
+
+                            Модель ES-ForthLogic™ SТ - максимально спрощений варіант виконання моделі ES-ForthLogic™ SG, яка може здійснювати обмін даними через мережу GSM лише в режимі SMS. Дана модель призначена для побутових застосувань.
+                        </div>
+                        <div class="card__details-area" id="scheme">
+                            <h4>Схема підключення:</h4>
+                            <img src="img/products/st-scheme.jpeg" alt="">
+                        </div>
+                        <div class="card__details-area" id="specs">
+                            <ul class="specs__list">
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>вбудований інтерпретатор мови ForthLogic™ для реалізації довільних алгоритмів роботи контролера</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>6 універсальних входів/виходів: входи для приєднання сигналів типу "сухий контакт"/"відкритий колектор"; виходи типу "відкритий колектор" (50 В; 0,2 А); входи можуть працювати в режимі швидкого лічильника (10 кГц); виходи можуть працювати в режимі формування ШІМ-сигналу</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>2 аналогових входи по струму (0/4...20 мА), розрядність представлення даних 10р</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>вбудований GSM/GPRS-комунікатор з можливістю передачі та прийому даних через SMS</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>вбудований легкодоступний зчитувач SIM-карти</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>вбудований легкодоступний зчитувач карт пам’яті типу SD/SDHC/MMC</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>порт miniUSB для програмування та взаємодії з контролером</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>3 світлодіода різних кольорів для індикації напруги / стану контролера</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>звукова сигналізація подій</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>напруга живлення 9 В...30 В постійного струму</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>зовнішня антена GSM (роз’єм типу SMA)</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>корпус на DIN-рейку шириною 3S</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>робоча температура: -20°С...+70°С</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>відносна вологість: 0...90%, без конденсації</li>
+                            </ul>
+                        </div>
+                        <div class="card__details-area" id="doc">
+                            Docs
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @@include('../parts/footer.html') 
+    <img src="icons/up.svg" alt="" id="pageup" class="pageup">
+    @@include('../parts/modal.html')
+</body>

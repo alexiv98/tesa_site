@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('../parts/head.html')
+</head>
+<body>
+    @@include('../parts/burger.html')
+    @@include('../parts/header.html')
+    <section class="card">
+        <div class="container">
+            <div class="card__wrapper">
+                <div class="card__img animate">
+                    <img src="img/products/ai-1m.png" alt="">
+                </div>
+                    <div class="title title_card animate">Пристрій збору та передачі даних ES-AI-1M, струм або напруга, MODBUS RTU</div>
+                    <!-- <div class="card__price"></div> -->
+                    <a data-modal href="#" class="button button_card animate">Замовити</a>
+                    <div class="card__details animate">
+                        <div class="card__tabs">
+                            <div class="card__tab card__tab_active" data-tab="descr">Опис</div>
+                            <div class="card__tab" data-tab="scheme">Схеми</div>
+                            <div class="card__tab" data-tab="specs">Характеристики</div>
+                            <div class="card__tab" data-tab="doc">Документація</div>
+                        </div>
+                        <div class="card__details-area" id="descr">
+                            <b>Призначення:</b> пристрій збору та передачі даних <b>ForthLogic ES-AI-1M</b> призначений для розширення кількості аналогових входів програмованих логічних контролерів. Інформаційний обмін з пристроєм здійснюється по послідовному інтерфейсу <b>RS485</b> згідно протоколу <b>MODBUS RTU</b>.
+                            <br><br>
+                            <b>Дія: ES-AI-1M</b> обладнано чотирьма універсальними аналоговими входами. Кожний вхід за допомогою внутрішніх конфігураційних перемичок може бути встановлено в режим роботи по напрузі або по струму. <b>ES-AI-1M</b> здійснює неперервне вимірювання значень вхідних струмів та напруг по всім входам незалежно від положення конфігураційних перемичок. Виміряні значення струмів та напруг можна прочитати по послідовному інтерфейсу <b>RS485</b> за допомогою протоколу <b>MODBUS RTU</b>. Більшість параметрів обміну є фіксованими за виключенням власної мережевої адреси - її можна встановити за допомогою багатопозиційного перемикача схованого під передньою панеллю. <b>ES-AI-1M</b> обладнано двома світлодіодами розташованими на передній панелі, які відображають наступну інформацію: зелений - наявність напруги живлення; жовтий - вдалий обмін по протоколу <b>MODBUS RTU</b>.
+                            <br><br>
+                            * Кожний вхід за допомогою внутрішніх перемичок може бути незалежно налаштованим на вхід по струму або по напрузі.
+                    
+                        </div>
+                        <div class="card__details-area" id="scheme">
+                            <h4>Схема підключення:</h4>
+                            <img src="img/products/ai-1m-scheme.webp" alt="">
+                        </div>
+                        <div class="card__details-area" id="specs">
+                            <table class="card__table">
+                                <thead>
+                                    <tr>
+                                        <th>Характеристика</th>
+                                        <th>Значення</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Напруга живлення</td>
+                                        <td>9 - 30 В</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Діапазон робочих температур</td>
+                                        <td>Від -20°С до +50°С</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Діапазон вимірів вхідного напруги</td>
+                                        <td>0 - 10 В</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Діапазон вимірів вхідного струму</td>
+                                        <td>0 - 20 мА</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Кількість аналогових входів</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Параметри протоколу</td>
+                                        <td>9600 біт / сек, 8 біт даних 2 стоп-біта, без біта парності</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Послідовний інтерфейс</td>
+                                        <td>RS485</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Поступаючий опір при вимірюванні напруги</td>
+                                        <td>110 кОм</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Поступаючий опір при вимірюванні струму</td>
+                                        <td>47 кОм</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Протокол</td>
+                                        <td>MODBUS RTU</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Споживаний струм</td>
+                                        <td>30 мА</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Точність вимірювань</td>
+                                        <td>0,5% від повного діапазону</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Габаритні розміри</td>
+                                        <td>1 модуль типу S (17,5 мм)</td>
+                                    </tr>
+                                </tbody>
+                               
+                            </table>
+                        </div>
+                        <div class="card__details-area" id="doc">
+                            Docs
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @@include('../parts/footer.html')
+    <img src="icons/up.svg" alt="" id="pageup" class="pageup">
+    @@include('../parts/modal.html')
+
+
+</body>

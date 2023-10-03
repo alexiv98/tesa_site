@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('../parts/head.html')
+</head>
+<body>
+    @@include('../parts/burger.html')
+    @@include('../parts/header.html')
+    <section class="card">
+        <div class="container">
+            <div class="card__wrapper">
+                <div class="card__img animate">
+                    <img src="img/products/pt-1m.png" alt="SG">
+                </div>
+                    <div class="title title_card animate">Вимірювач температури ES-PT-1M, Modbus RTU</div>
+                    <div class="card__price animate"></div>
+                    <a data-modal href="#" class="button button_card animate">Замовити</a>
+                    <div class="card__details animate">
+                        <div class="card__tabs">
+                            <div class="card__tab card__tab_active" data-tab="descr">Опис</div>
+                            <div class="card__tab" data-tab="scheme">Схеми</div>
+                            <div class="card__tab" data-tab="specs">Характеристики</div>
+                            <div class="card__tab" data-tab="doc">Документація</div>
+                        </div>
+                        <div class="card__details-area" id="descr">
+                            <b>Призначення:</b> для вимірювання температури за допомогою датчиків температури типу Pt100 та передачі виміряних значень контролеру по послідовному інтерфейсу згідно протоколу MODBUS RTU.
+                            <br><br>
+                            *Спеціальна конструкція вхідних кіл модуля забезпечує контроль обриву будь-якого з проводів зовнішнього датчика.
+                        </div>
+                        <div class="card__details-area" id="scheme">
+                            <h4>Схема підключення:</h4>
+                            <img src="img/products/pt-1m-scheme.webp" alt="">
+                        </div>
+                        <div class="card__details-area" id="specs">
+                            <table class="card__table">
+                                <thead>
+                                    <tr>
+                                        <th>Характеристика</th>
+                                        <th>Значення</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Напруга живлення</td>
+                                        <td>9 - 30 В</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Діапазон робочих температур</td>
+                                        <td>Від -40°С до +85°С</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Діапазон виміру</td>
+                                        <td>Програмується</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Максимальний споживаний струм</td>
+                                        <td>25 мА</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Параметри протоколу</td>
+                                        <td>9600 біт/с, 8 біт даних 2 стоп-біти, без біта парності</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Послідовний інтерфеc</td>
+                                        <td>RS485</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Похибка вимірювання</td>
+                                        <td>±0,5°С%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Протокол</td>
+                                        <td>MODBUS RTU</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Схема підключення</td>
+                                        <td>Трьохпроводна</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Тип датчика</td>
+                                        <td>DS18B20</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Габаритні розміри</td>
+                                        <td>1 модуль типу S (17,5 мм)</td>
+                                    </tr>
+                                </tbody>
+                               
+                            </table>
+                        </div>
+                        <div class="card__details-area" id="doc">
+                            Docs
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @@include('../parts/footer.html') 
+    <img src="icons/up.svg" alt="" id="pageup" class="pageup">
+    @@include('../parts/modal.html')
+</body>

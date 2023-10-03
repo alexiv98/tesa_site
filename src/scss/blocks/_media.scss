@@ -1,0 +1,333 @@
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .promo {
+        min-height: 600px;
+        &__wrapper {
+            column-gap: 20px;
+        }
+        &__content {
+            width: 350px;
+        }
+        &__descr {
+            margin-top: 12px;
+            font-size: 15px;
+        }
+        &__img {
+            width: 350px;
+        }
+    }
+    .title {
+        &_fz48 {
+            font-size: 44px;
+        }
+    }
+    .create {
+        padding: 60px 0;
+    }
+    .contact {
+        &__wrapper {
+            width: 510px;
+        }
+        &__item-img {
+            display: none;
+        }
+    }
+    .products {
+        &__wrapper {
+            justify-content: center;
+        }
+
+    }
+    .footer {
+        &__wrapper {
+            column-gap: 20px;
+        }
+        &__form {
+            &-input {
+                input {
+                    width: 180px;
+                }
+                
+            }
+        }
+    }
+    .tabs {
+        &__item {
+            width: 160px;
+            font-size: 14px;    
+            &_short {
+                width: 60px;
+            }
+        }
+    }
+    .card {
+        padding-top: 150px;
+        &__wrapper {
+            grid-template-columns: 140px 580px;
+            grid-template-rows: auto;
+            row-gap: 30px;
+        }
+        &__img {
+            grid-column: 1/3;
+            grid-row: 2/3;
+        }
+        &__price{ 
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+        &__details {
+            
+            grid-column: 1/3;
+            grid-row: 4/5;
+            width: 530px;
+        }
+    }
+    .title {
+        &_card {
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+      
+    }
+    .button {
+        &_card {
+            grid-column: 2/3;
+            grid-row: 3/4;
+        }
+    }
+    .map {
+        iframe {
+            width: 720px;
+        }
+    }
+    .contact_page {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .menu {
+        padding-top: 20px;
+        &__items {
+            display: none;
+        }
+    }
+    .burger {
+        span {
+            display: block;
+        }
+    }
+    .promo {
+        min-height: 730px;
+        &__wrapper {
+            padding-top: 140px;
+            flex-direction: column;
+            align-items: start;
+        }
+        &__content {
+            width: auto;
+        }
+        &__img {
+            align-self: center;
+        }
+    }
+    .create {
+        padding-bottom: 30px;
+        &__wrapper {
+            grid-template-columns: repeat(auto-fill, 262px);
+            column-gap: 16px;
+            row-gap: 20px;
+        }
+    }
+    .showcase {
+        padding: 30px 0;
+    }
+    .pageup {
+        bottom: 30px;
+        right: 30px;
+        width: 30px;
+        height: 30px;
+    }
+    .contact {
+        &__wrapper {
+            grid-template-columns: 430px
+        }
+    }
+    .catalog {
+         padding: 60px 0;
+    }
+    .tabs {
+        &__item {
+            width: 140px;
+            font-size: 14px;    
+            &_short {
+                width: 60px;
+            }
+        }
+        
+    }
+    .card {
+        padding-top: 100px;
+        &__wrapper {
+            grid-template-columns: 140px 400px;
+        }
+    }
+    .map {
+        iframe {
+            width: 540px;
+            height: 500px;
+        }
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    .promo {
+        min-height: 500px;
+        &__descr {
+            font-size: 14px;
+        }
+        &__img {
+            display: none;
+        }
+    }
+    .title {
+        &_fz48 {
+            font-size: 38px;
+
+        }
+        &_center {
+            font-size: 23px;
+            line-height: 32px;
+        }
+        &_mb50 {
+            font-size: 32px;
+        }
+        &_contact {
+            font-size: 30px;
+            text-align: center;
+        }
+        &_card {
+            font-size: 28px;
+        }
+        &_map {
+            font-size: 32px;
+        }
+        
+    }
+    .subtitle {
+        &_create {
+            font-size: 14px;
+            margin: 0 auto 14px auto;
+        }
+        &_contact {
+            text-align: center;
+        }
+    }
+    
+    .button {
+        padding: 12px 36px;
+        &_showcase {
+            padding: 12px 50px;
+        }
+    }
+
+    .create {
+        padding: 45px 0;
+
+    }
+    .pageup {
+        bottom: 20px;
+        right: 20px;
+    }
+    .contact {
+        &__wrapper {
+            grid-template-columns: 270px;
+            width: 300px;
+            padding: 15px;
+            height: 530px;
+        }
+    }
+    .contact-form {
+        margin-top: 20px;
+        &__input {
+            width: 100%;
+        }
+        &__textarea {
+            width: 100%;
+        }
+    }
+    .footer {
+        &__item {
+            display: none;
+        }
+    }
+    .tabs {
+        &__item {
+            width: 100px;
+            font-size: 12px;    
+            &_short {
+                width: 60px;
+            }
+        }
+        
+    }
+
+    .card {
+        &__wrapper {
+            grid-template-columns: 140px 160px;
+            justify-content: center;
+
+        }
+        &__img {
+            width: 300px;
+        }
+        &__details {
+            width: 300px;
+        }
+        &__tabs {
+            width: 300px;
+            flex-wrap: wrap;
+        }
+        &__tab {
+            font-size: 14px;
+            padding: 8px 16px;
+            &_active {
+                height: 40px;
+                border-radius: initial;   
+            }
+        }
+    }
+    [data-tab="scheme"] {
+        padding: 8px 30px;
+    }
+    [data-tab="descr"] {
+        padding: 8px 30px;
+    }   
+    .specs__list {
+        padding-left: 0;
+    }
+    .map {
+        iframe {
+            width: 100%;
+        }
+    }
+
+    
+}

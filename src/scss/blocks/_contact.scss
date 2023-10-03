@@ -1,0 +1,87 @@
+.contact {
+    background: url('../img/bg_contacts.svg')  center (center    /cover) no-repeat;
+    height: 750px;
+    padding: 100px 0;
+    margin-bottom: 100px;
+    &_page {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    &__wrapper {
+        margin: 0 auto;
+        border-radius: 14px;
+        background: #FFF;
+        box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+        padding: 40px 40px 30px 40px;
+        width: 935px;
+        height: 550px;
+        display: grid;
+        grid-template-columns: 430px 350px;
+        column-gap: 75px;
+        transition: all 1s;
+        &.animate {
+            opacity: 0;
+        }
+        &.animate_show {
+            opacity: 1;
+        }
+    }
+    &__item-form {
+        transform: all 0.5s ease;
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(52, 52, 52, 0.3) url(../icons/loading.svg) center / 100px no-repeat;
+            visibility: hidden;
+            opacity: 0;
+            transform: all 0.5s ease;
+            
+        }
+        &.sending:after{
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    &__img {
+        margin-top: 40px;
+        width: 340px;
+        height: 250px;
+    }
+    &__contacts-list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        &_item {
+            display: flex;
+            column-gap: 13px;
+            align-items: center;
+        }
+        &__img {
+            height: 30px;
+            width: 30px;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        &__text {
+            color: #160637;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 1.12px;
+        }
+
+    }
+}
+
+.map {
+    iframe {
+        padding: 25px 0 50px 0;
+        display: block;
+        margin: 0 auto 50px auto;
+    }
+}

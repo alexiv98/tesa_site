@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('../parts/head.html')
+</head>
+<div class="body">
+    @@include('../parts/burger.html')
+    @@include('../parts/header.html')
+    <section class="banner banner_contacts">
+        <div class="container">
+            <h2 class="title title_fz50 animate">Контакти</h2>
+        </div>
+    </section>
+    <section class="contact contact_page">
+        <div class="container">
+            <div class="contact__wrapper animate">
+                <div data-form="contact" class="contact__item-form">
+                    <h2 class="title title_contact">Звʼязатися</h2>
+                    <div class="subtitle_contact">Залиш заявку і ми з тобою звʼяжемось</div>
+                    <form data-form="contact" action="#" class="contact-form">
+                        <input  name="name" type="text" class="contact-form__input _name" placeholder="Ваше імʼя">
+                        <input  name="email" type="text" class="contact-form__input _email" placeholder="Ваша пошта">
+                        <textarea name="text" id="text"class="contact-form__textarea" placeholder="Напиши що тебе цікавить"></textarea>
+                        <button class="button button_contact-form">Відправити</button>
+                    </form>
+                </div>
+                <div class="contact__item-img">
+                    <div class="contact__img"><img src="img/contact.svg" alt="contact_form"></div>
+                    <div class="contact__contacts-list">
+                        <div class="contact__contacts-list_item">
+                            <div class="contact__contacts-list__img"><img src="icons/adress.svg" alt="adress"></div>
+                            <div class="contact__contacts-list__text">м. Кривий Ріг, вул. Ярошенко 58</div>
+                        </div>
+                        <div class="contact__contacts-list_item">
+                            <div class="contact__contacts-list__img"><img src="icons/tel.svg" alt="telephone"></div>
+                            <div class="contact__contacts-list__text">+380687754706</div>
+                        </div>
+                        <div class="contact__contacts-list_item">
+                            <div class="contact__contacts-list__img"><img src="icons/email.svg" alt="email"></div>
+                            <div class="contact__contacts-list__text">tanya@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map">
+        <div class="container">
+            <h3 class="title title_center title_map">Як нас знайти</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4491.895123851558!2d33.432180957420655!3d47.97705206821732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dae00e48fd2ca7%3A0x7a55b9c0ac9cf74a!2z0LLRg9C70LjRhtGPINCv0YDQvtGI0LXQvdC60LAsIDU4LCDQmtGA0LjQstC40Lkg0KDRltCzLCDQlNC90ZbQv9GA0L7Qv9C10YLRgNC-0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNTAwMDA!5e0!3m2!1sru!2sua!4v1695297259832!5m2!1sru!2sua" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    @@include('../parts/footer.html')
+    <img src="icons/up.svg" alt="" id="pageup" class="pageup">
+    @@include('../parts/modal.html')
+
+
+</div>

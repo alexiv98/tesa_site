@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('../parts/head.html')
+</head>
+<body>
+    @@include('../parts/burger.html')
+    @@include('../parts/header.html')
+    <section class="card">
+        <div class="container">
+            <div class="card__wrapper">
+                <div class="card__img animate">
+                    <img src="img/products/pu-1l.png" alt="SG">
+                </div>
+                    <div class="title title_card animate">Вимірювач напруги ES-PU-1L, передача по виходу 4-20 мА</div>
+                    <div class="card__price animate">3 820 &#8372;</div>
+                    <a data-modal href="#" class="button button_card animate">Замовити</a>
+                    <div class="card__details animate">
+                        <div class="card__tabs">
+                            <div class="card__tab card__tab_active" data-tab="descr">Опис</div>
+                            <div class="card__tab" data-tab="scheme">Схеми</div>
+                            <div class="card__tab" data-tab="specs">Характеристики</div>
+                            <div class="card__tab" data-tab="doc">Документація</div>
+                        </div>
+                        <div class="card__details-area" id="descr">
+                            <b> Призначення</b>: для вимірювання напруги та передачі виміряних значень по уніфікованому     виходу 4-20 мА.
+                            <br><br>
+                            * Вимірювання напруги здійснюється відносно нейтрального провідника.
+                            <br>* TrueRMS означає точне вимірювання при будь-якій формі синусоїди змінної напруги, а також можливість міряти постійні напруги - в цьому випадку виміряне значення збігається із значенням постійної напруги.
+                            <br>* Вихідний струм 4 мА відповідає діючому значенню вхідної напруги 0 В, вихідний струм 20 мА відповідає діючому значенню вхідної напруги 285 В.
+                        </div>
+                        <div class="card__details-area" id="scheme">
+                            <h4>Схема підключення:</h4>
+                            <img src="img/products/pu-1l-scheme.webp" alt="">
+                        </div>
+                        <div class="card__details-area" id="specs">
+                            <table class="card__table">
+                                <thead>
+                                    <tr>
+                                        <th>Характеристика</th>
+                                        <th>Значення</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Напруга живлення</td>
+                                        <td>9 - 30 В</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Діапазон робочих температур</td>
+                                        <td>Від -20°С до +50°С</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Споживана потужність</td>
+                                        <td>0,8 Вт</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Максимальна напруга</td>
+                                        <td>285 В  / 400 В</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Струм на виході</td>
+                                        <td>4 - 20 мА</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Точність вимірювань</td>
+                                        <td>±0,5%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Габаритні розміри</td>
+                                        <td>1 модуль типу S (17,5 мм)</td>
+                                    </tr>
+                                </tbody>
+                               
+                            </table>
+                        </div>
+                        <div class="card__details-area" id="doc">
+                            Docs
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @@include('../parts/footer.html') 
+    <img src="icons/up.svg" alt="" id="pageup" class="pageup">
+    @@include('../parts/modal.html')
+</body>

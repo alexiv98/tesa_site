@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('../parts/head.html')
+</head>
+<body>
+    @@include('../parts/burger.html')
+    @@include('../parts/header.html')
+    <section class="card">
+        <div class="container">
+            <div class="card__wrapper">
+                <div class="card__img animate">
+                    <img src="img/products/ups.png" alt="SG">
+                </div>
+                    <div class="title title_card animate">Модуль безперебійного живлення ES-UPS-1, від акумулятора 12В</div>
+                    <div data-modal class="card__price animate">1 075 &#8372;</div>
+                    <a href="#" class="button button_card animate">Замовити</a>
+                    <div class="card__details animate">
+                        <div class="card__tabs">
+                            <div class="card__tab card__tab_active" data-tab="descr">Опис</div>
+                            <div class="card__tab" data-tab="scheme">Схеми</div>
+                            <div class="card__tab" data-tab="specs">Характеристики</div>
+                            <div class="card__tab" data-tab="doc">Документація</div>
+                        </div>
+                        <div class="card__details-area" id="descr">
+                            <b>Призначення:</b> для забезпечення неперервного живлення споживачів напругою постійного струму. Це досягається за рахунок підключення в режимі ON-LINE зовнішнього акумулятора з номінальною напругою 12 В та ємністю від 2,2 до 7,2 АГ.
+                        </div>
+                        <div class="card__details-area" id="scheme">
+                            <h4>Схема підключення:</h4>
+                            <img src="img/products/ups-scheme.webp" alt="">
+                        </div>
+                        <div class="card__details-area" id="specs">
+                            <table class="card__table">
+                                <thead>
+                                    <tr>
+                                        <th>Характеристика</th>
+                                        <th>Значення</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Напруга живлення</td>
+                                        <td>12 В</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Діапазон робочих температур</td>
+                                        <td>Від -20°С до +50°С</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ємність акумулятора</td>
+                                        <td>2,2 - 7,2 А*г</td>
+                                    </tr>
+                                        <td>Максимальна напруга</td>
+                                        <td>13,8 В</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Максимальний струм заряду акумулятора</td>
+                                        <td>0,4 А</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Напруга на виході</td>
+                                        <td>Від 9 до 30 В</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Напруга на вході</td>
+                                        <td>Від 15 до 30 В</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Струм на виході</td>
+                                        <td>3 А</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Габаритні розміри</td>
+                                        <td>1 модуль типу S (17,5 мм)</td>
+                                    </tr>
+                                </tbody>
+                               
+                            </table>
+                        </div>
+                        <div class="card__details-area" id="doc">
+                            Docs
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @@include('../parts/footer.html')
+    <img src="icons/up.svg" alt="" id="pageup" class="pageup">
+    @@include('../parts/modal.html')
+</body>

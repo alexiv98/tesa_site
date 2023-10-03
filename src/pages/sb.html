@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('../parts/head.html')
+</head>
+<body>
+    @@include('../parts/burger.html')
+    @@include('../parts/header.html')
+    <section class="card">
+        <div class="container">
+            <div class="card__wrapper">
+                <div class="card__img animate">
+                    <img src="img/products/SB.png" alt="SG">
+                </div>
+                    <div class="title title_card animate">Програмований Контролер ES-ForthLogic SB</div>
+                    <div class="card__price animate">7 665 &#8372;</div>
+                    <a data-modal href="#" class="button button_card animate">Замовити</a>
+                    <div class="card__details animate">
+                        <div class="card__tabs">
+                            <div class="card__tab card__tab_active" data-tab="descr">Опис</div>
+                            <div class="card__tab" data-tab="scheme">Схеми</div>
+                            <div class="card__tab" data-tab="specs">Характеристики</div>
+                            <div class="card__tab" data-tab="doc">Документація</div>
+                        </div>
+                        <div class="card__details-area" id="descr">
+                            <b>Призначення:</b> контролери ES-ForthLogic™ SВ є універсальними вільнопрограмованими логічними контролерами модульної архітектури, призначеними для побудови як замкнутих, так і інтегрованих в інші системи контурів керування довільним інженерним та промисловим обладнанням малого/середнього рівня складності в побуті (ES-ForthLogic™ SB) та промисловості (ES-ForthLogic™ SB prom).
+                            <br><br>
+                            <b>ES-ForthLogic™ SB</b> - відсутня повна гальванічна ізоляція центрального процесора відносно кіл живлення, входів, виходів та послідовного інтерфейсу.
+                            <br><br>    
+                            <b>ES-ForthLogic™ SB prom</b> має повну гальванічну ізоляцію центрального процесора відносно кіл живлення, входів, виходів та послідовного інтерфейсу, і відповідає жорстким умовам експлуатації в промислових середовищах.
+                        </div>
+                        <div class="card__details-area" id="scheme">
+                            <h4>Схема підключення:</h4>
+                            <img src="img/products/sg-scheme.webp" alt="">
+                        </div>
+                        <div class="card__details-area" id="specs">
+                            <ul class="specs__list">
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i> вбудований інтерпретатор мови ForthLogic™ для реалізації довільних алгоритмів роботи контролера</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>6 універсальних входів/виходів: входи для приєднання сигналів типу "сухий контакт"/"відкритий колектор"; виходи типу "відкритий колектор" (50 В; 0,2 А); входи можуть працювати в режимі швидкого лічильника (10 кГц); виходи можуть працювати в режимі формування ШІМ-сигналу</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>2 аналогових входи по струму (0/4...20 мА), розрядність представлення даних 10р</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>1 швидкий послідовний порт RS485 з підтримкою протоколу MODBUS RTU та можливістю роботи в режимах MASTER або SLAVE</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>вбудований легкодоступний зчитувач карт пам’яті типу SD/SDHC/MMC</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>порт miniUSB для програмування та взаємодії з контролером</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>внутрішня пам’ять подійна 25000 подій(2Мб)</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>годинник реального часу з резервним живленням</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>2 світлодіоди різних кольорів для індикації напруги/стану контролера</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>звукова сигналізація подій</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>напруга живлення 9 В...30 В постійного струму</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>корпус на DIN-рейку шириною 3S</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>робоча температура: -40°С...+80°С</li>
+                                <li class="specs__item"><i class="fa-solid fa-circle custom-icon"></i>відносна вологість: 0...90%, без конденсації</li>
+                            </ul>
+                        </div>
+                        <div class="card__details-area" id="doc">
+                            Docs
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @@include('../parts/footer.html') 
+    <img src="icons/up.svg" alt="" id="pageup" class="pageup">
+    @@include('../parts/modal.html')
+</body>

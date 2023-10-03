@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('../parts/head.html')
+
+</head>
+<body>
+    @@include('../parts/burger.html')
+    @@include('../parts/header.html')
+    <section class="promo">
+        <div class="container">
+            <div class="promo__wrapper">
+                <div class="promo__content">
+                    <div class="title title_fz48 animate">ТЕСА ЕЛЕКТРОНІКС</div>
+                    <div class="promo__descr animate">
+                        Розробка та виробництво засобів промислової і побутової низьковольтної релейної автоматики
+                    </div>
+                    <div class="promo__btns">
+                        <a href="#showcase" class="button button_promo animate">Каталог</a>
+                        <a href="#" class="button button_promo_white animate" data-modal>Звʼязатися</a>
+                    </div>
+                </div>
+                <div class="promo__img animate">
+                    <img src="img/img_promo.svg" alt="img_promo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="create">
+        <div class="container">
+            <h2 class="title title_center animate">Займаємось розробкою систем автоматизації</h2>
+            <div class="subtitle subtitle_create animate">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quod. Adipisci explicabo, facere eligendi non hic deserunt. Eos, ullam corporis.
+            </div>
+            <div class="create__wrapper">
+                <div class="create__item animate">
+                    <img src="icons/chart-bar-33.svg" alt="" class="create__icon">
+                    <div class="create__title">Разрабка специфікації</div>
+                    <div class="create__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quibusdam.</div>
+                </div>
+                <div class="create__item animate">
+                    <img src="icons/newsletter-dev.svg" alt="" class="create__icon">
+                    <div class="create__title">Щось ще там</div>
+                    <div class="create__descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, ipsum.</div>
+                </div>
+                <div class="create__item animate">
+                    <img src="icons/timeline.svg" alt="" class="create__icon">
+                    <div class="create__title">Курси пайки</div>
+                    <div class="create__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, magnam.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <section class="showcase">
+
+        <div class="container">
+            <h2 id="showcase" class="title title_center title_mb50 animate">Наша продукція</h2>
+            <div class="showcase__products">
+                <div class="products__wrapper">
+                    <div class="products__item animate">
+                        <a href="sg.html" class="products__item-img"><img src="img/products/SG.png" alt="sg"></a>
+                        <div class="products__item-title">Програмований контролер ES-ForthLogic SG</div>
+                        <div class="products__item-descr">Універсальний вільнопрограмований логічний контролер модульної архітектури</div>
+                        <div class="products__item-price">14 320 ₴</div>
+                        <a href="sg.html" class="button button_products">Детальніше</a>
+                    </div>
+                    <div class="products__item animate">
+                        <a href="pu-1m" class="products__item-img"><img src="img/products/pu-1m.png" alt="pu-1m"></a>
+                        <div class="products__item-title">Вимірювач напруги <br>ES-PU-1M, MODBUS RTU</div>
+                        <div class="products__item-descr">Вимірювання струму та передачі виміряних значень по протоколу MODBUS</div>
+                        <div class="products__item-price">3 250 ₴</div>
+                        <a href="pu-1m" class="button button_products">Детальніше1</a>
+                        
+                    </div>
+                    <div class="products__item animate">
+                        <a href="pi-1l.html" class="products__item-img"><img src="img/products/pi-1l.png" alt="pi-1l"></a>
+                        <div class="products__item-title">Вимірювач струму ES-PI-1L, уніфікований вихід 4-20 мА</div>
+                        <div class="products__item-descr">Вимірювання струму та передачі виміряних значень по уніфікованому виходу 4-20 мА</div>
+                        <div class="products__item-price">2 720 ₴</div>
+                        <a href="pi-1l.html" class="button button_products">Детальніше</a>
+                    </div>
+                    <div class="products__item animate">
+                        <a href="ups.html" class="products__item-img"><img src="img/products/ups.png" alt="ups"></a>
+                        <div class="products__item-title">Модуль безперебійного живлення ES-UPS-1, від акумулятора 12В</div>
+                        <div class="products__item-descr">Універсальний вільнопрограмований логічний контролер модульної архітектури</div>
+                        <div class="products__item-price">1 075 ₴</div>
+                        <a href="ups.html" class="button button_products">Детальніше</a>
+                    </div>
+                    
+                    
+                </div>       
+            </div>
+            <a href="catalog.html" class="button button_showcase animate">Усі продукти</a>
+            </div>
+            
+    </section>
+
+   <section class="contact">
+        <div class="container">
+            <div class="contact__wrapper animate">
+                <div data-form="contact" class="contact__item-form">
+                    <h2 class="title title_contact">Звʼязатися</h2>
+                    <div class="subtitle_contact">Залиш заявку і ми з тобою звʼяжемось</div>
+                    <form data-form="contact" action="#" class="contact-form">
+                        <input  name="name" type="text" class="contact-form__input _name" placeholder="Ваше імʼя">
+                        <input  name="email" type="text" class="contact-form__input _email" placeholder="Ваша пошта">
+                        <textarea name="text" id="text"class="contact-form__textarea" placeholder="Напиши що тебе цікавить"></textarea>
+                        <button class="button button_contact-form">Відправити</button>
+                    </form>
+                </div>
+                <div class="contact__item-img">
+                    <div class="contact__img"><img src="img/contact.svg" alt="contact_form"></div>
+                    <div class="contact__contacts-list">
+                        <div class="contact__contacts-list_item">
+                            <div class="contact__contacts-list__img"><img src="icons/adress.svg" alt="adress"></div>
+                            <div class="contact__contacts-list__text">м. Кривий Ріг, вул. Ярошенко 58</div>
+                        </div>
+                        <div class="contact__contacts-list_item">
+                            <div class="contact__contacts-list__img"><img src="icons/tel.svg" alt="telephone"></div>
+                            <div class="contact__contacts-list__text">+380687754706</div>
+                        </div>
+                        <div class="contact__contacts-list_item">
+                            <div class="contact__contacts-list__img"><img src="icons/email.svg" alt="email"></div>
+                            <div class="contact__contacts-list__text">tanya@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    @@include('../parts/footer.html')
+
+
+        <img src="icons/up.svg" alt="" id="pageup" class="pageup">
+    
+    @@include('../parts/modal.html')
+
+
+    </div>
+</body>
+</html>
+

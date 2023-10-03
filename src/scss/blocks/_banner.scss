@@ -1,0 +1,12 @@
+.banner {
+    padding-top: 56px;
+    min-height: 366px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/bg_catalog.jpg')  center (center/cover) no-repeat;
+    &_contacts {
+        background: url('../img/bg_contacts.jpg')  center (center/cover) no-repeat;
+
+    }
+}
